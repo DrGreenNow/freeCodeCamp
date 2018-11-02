@@ -27,6 +27,12 @@ const basketOne = makeBasket(addFruit, 10)
 const prepareGreenTea = () => 'greenTea';
 
 /**
+ * A long process to prepare black tea.
+ * @return {string} A cup of black tea.
+ **/
+const prepareBlackTea = () => 'blackTea';
+
+/**
  * Get given number of cups of tea.
  * @param {function():string} prepareTea The type of tea preparing function.
  * @param {number} numOfCups Number of required cups of tea.
